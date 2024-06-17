@@ -1,2 +1,7 @@
-# Tanulo_Fenykepesz_project
-Tanulo_Fenykepesz_project
+# Pictures from
+    https://www.pexels.com
+
+# Fonts from
+    https://fonts.google.com/
+    Playfair
+    Open Sans
