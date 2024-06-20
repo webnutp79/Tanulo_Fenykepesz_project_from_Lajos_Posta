@@ -1,0 +1,78 @@
+main {
+}
+
+.bevezeto-fotarolo {
+}
+
+.bevezeto-cimtarolo {
+  background-image: linear-gradient(90deg, #525252 20%, #e2e2ea00 100%),
+    url(../assets/pictures/cameras.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+  padding: 4%;
+}
+
+.bevezeto-cimtarolo h1,
+.bevezeto-cimtarolo div {
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.bevezeto-cimtarolo h1 {
+  font-family: var(--primaryfont);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.bevezeto-cimtarolo div {
+  font-family: var(--secondaryfont);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.bevezeto_tarolo_bemutatkozas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-top: -7rem;
+  gap: 2rem;
+}
+
+.bevezeto_kep img {
+  width: 80vw;
+  border: 2rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.bevezeto-tarolo_leiras {
+  font-family: var(--secondaryfont);
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--gray);
+  line-height: 1.8rem;
+  word-spacing: 0.2rem;
+  width: 80vw;
+  background-color: var(--green);
+  border: 2rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+  padding: 3rem 2rem;
+}
+
+.bevezeto-tarolo_leiras p {
+  padding-bottom: 2rem;
+}
+
+.bevezeto-tarolo_leiras li {
+  list-style: disc;
+}
+
+.bevezeto-tarolo_leiras h2 {
+  font-family: var(--primaryfont);
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}

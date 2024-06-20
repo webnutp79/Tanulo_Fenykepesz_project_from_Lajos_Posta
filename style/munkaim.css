@@ -1,0 +1,33 @@
+#munkaim {
+    width: 80vw;
+    margin: 5rem 10vw;
+    
+
+}
+
+#munkaim h2 {
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+#munkaim img {
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.family {
+    box-shadow: -30px -30px var(--shadow);
+}
+
+.seaevent {
+    background-color: rgb(235, 235, 235);
+    border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.girl {
+    box-shadow: 30px 30px var(--shadow);
+}

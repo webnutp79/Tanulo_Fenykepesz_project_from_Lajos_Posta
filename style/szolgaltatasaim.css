@@ -1,0 +1,142 @@
+#szolgaltatasaim h2 {
+    text-align: center;
+    padding: 3rem 0;
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.szolgaltatasaiom-tarolo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/******RENDEZVÉNY******/
+
+.rendezveny {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 2rem;
+}
+
+.rendezveny h3 {
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.rendezveny p {
+    font-family: var(--secondaryfont);
+    font-size: .9rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.rendezveny img {
+    width: 100%;
+    box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+/******ESKÜVŐ******/
+
+.eskuvo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 2rem;
+}
+
+.eskuvo h3 {
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.eskuvo p {
+    font-family: var(--secondaryfont);
+    font-size: .9rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.eskuvo img {
+    width: 100%;
+    box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+/******CSALÁDI******/
+
+.csaladi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 2rem;
+}
+
+.csaladi h3 {
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.csaladi p {
+    font-family: var(--secondaryfont);
+    font-size: .9rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.csaladi img {
+    width: 100%;
+    box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+/******PORTRÉ******/
+
+.portre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 2rem;
+}
+
+.portre h3 {
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.portre p {
+    font-family: var(--secondaryfont);
+    font-size: .9rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.portre img {
+    width: 100%;
+    box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}

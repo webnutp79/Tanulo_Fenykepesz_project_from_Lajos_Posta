@@ -1,0 +1,73 @@
+#rolam {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rolam_leiras {
+    width: 80vw;
+    padding-top: 5rem;
+}
+
+.rolam_leiras h2 {
+font-family: var(--primaryfont);
+font-weight: 500;
+padding-bottom: 2rem;
+}
+
+.rolam_leiras p {
+    padding-bottom: 2rem;
+    font-family: var(--secondaryfont);
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--gray);
+  line-height: 1.8rem;
+  word-spacing: 0.2rem;
+}
+
+.rolam_leiras img {
+width: 100%;
+border: 1.5rem solid var(--white);
+box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.rolam-velemeny_fotarolo {
+    width: 80vw;
+    background-color: var(--white);
+    margin-top: -4px;
+    padding: 3rem 3rem 13rem;
+}
+
+.rolam-velemeny_fotarolo h3 {
+    font-family: var(--secondaryfont);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.rolam-velemeny_altarolo {
+    position: relative;
+}
+
+.velemeny {
+    font-family: var(--secondaryfont);
+    font-size: .9rem;
+    color: var(--gray);
+    text-align: center;
+    padding: 2rem 0;
+    line-height: 1.8rem;
+}
+
+.rolam-velemeny_fotarolo img {
+    background-color: rgb(235, 235, 235);
+    border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.velemeny-kep {
+    position: absolute;
+    left: -3rem;
+    bottom: -14rem;
+}

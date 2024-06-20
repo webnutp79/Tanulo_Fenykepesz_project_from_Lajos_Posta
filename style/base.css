@@ -4,6 +4,11 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  
+}
+
+img {
+  display: block;
 }
 
 html {
@@ -16,7 +21,7 @@ img {
 
 :root {
   --logofont: "DM Serif Display";
-  --primaryfont: "Playfair Display", serif;
+  --primaryfont: "Playfair Display SC", serif;
   --secondaryfont: "Open Sans";
   --white: #ffffff;
   --lightgray: #9e9d9d;
