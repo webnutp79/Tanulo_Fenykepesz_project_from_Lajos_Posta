@@ -34,7 +34,7 @@
 <body>
     <header>
         <a href="#fooldal" class="header-logo"><img src="./assets/pictures/logo.png" alt="Nagy András logo"></a>
-        <nav class="nav-container">
+        <nav>
             <input type="checkbox" id="nav-checkbox" />
             <label for="nav-checkbox" class="hamburger-button">
                 <span class="hamburger-line line-top"></span>
@@ -53,7 +53,7 @@
     <main>
         <section id="fooldal">
             <div class="bevezeto-fotarolo">
-                <div class="bevezeto-cimtarolo"><!--HATTERKEP KELL-->
+                <div class="bevezeto-cimtarolo">
                     <h1>Ha minőségi képeket szeretnél</h1>
                     <div>korrekt áron, keress bizalommal</div>
                 </div>
@@ -78,18 +78,19 @@
                         <h2>Neked milyen fotózásban segíthetek?</h2>
                     </div>
                 </div>
+            </div>
         </section>
         <section id="szolgaltatasaim">
             <h2>Szolgáltatásaim</h2>
-            <div class="szolgaltatasaiom-tarolo">
-                <div class="rendezveny">
+            <div class="szolgaltatasaim-tarolo">
+                <div class="altarolo a1">
                     <h3>Rendezvény fotózás</h3>
                     <p>Minden egyes rendezvénymás és más legyen szó vállalati rendezvényről, szalagavatóról,
                         ballagásról, érdemes megörökíteni. Ezek azzal a céllal lettek megszervezve, hogy emlékezetesek
                         legyenek.</p>
                     <img src="./assets/pictures/event.jpg" alt="rendezvény">
                 </div>
-                <div class="eskuvo">
+                <div class="altarolo a2">
                     <h3>Esküvői fotózás</h3>
                     <p>Különleges egyedi és hangulatos képekre vágytok? Akkor jó helyen jártok! A fotózási
                         koncepciót veletek együtt alakítom ki, minden részletre odafigyelve, hiszen a nagy nap, a
@@ -97,7 +98,7 @@
                         az elkészült fotók, Rólatok szólnak.</p>
                     <img src="./assets/pictures/wedding.jpg" alt="esküvő">
                 </div>
-                <div class="csaladi">
+                <div class="altarolo a3">
                     <h3>
                         Családi fotózás
                     </h3>
@@ -107,7 +108,7 @@
                         Szívesen nézünk rá nap mint nap.</p>
                     <img src="./assets/pictures/family.jpg" alt="család">
                 </div>
-                <div class="portre">
+                <div class="altarolo a4">
                     <h3>
                         Portré fotózás
                     </h3>
@@ -120,14 +121,19 @@
         </section>
         <section id="rolam">
             <div class="rolam_leiras">
-                <h2>A fotózás számomra</h2>
-                <p>egy remek eszköz, melyel érzelmeket, és hangulatot szeretném visszaadni a fotókon.</p>
-                <p>Teljes energiával és szeretettel örökítek meg egy-egy eseményt, amelyek
-                    megavál ragadják az ügyfeleket és tükrözik a hozzáértésemet.</p>
-                <p>Célom, hogy, ha a kedves megrendelő bármikor visszanézi a képeket, mindig mosolyt csaljon az arcára.
-                    A köszönetet és hálát
-                    kifejező mosolyok feledtetik a munkával töltött idő fáradalmait.</p>
-                <img src="./assets/pictures/Nagy_András.jpg" alt="Nagy András">
+                <div>
+                    <h2>A fotózás számomra</h2>
+                    <p>egy remek eszköz, melyel érzelmeket, és hangulatot szeretném visszaadni a fotókon.</p>
+                    <p>Teljes energiával és szeretettel örökítek meg egy-egy eseményt, amelyek
+                        megavál ragadják az ügyfeleket és tükrözik a hozzáértésemet.</p>
+                    <p>Célom, hogy, ha a kedves megrendelő bármikor visszanézi a képeket, mindig mosolyt csaljon az
+                        arcára.
+                        A köszönetet és hálát
+                        kifejező mosolyok feledtetik a munkával töltött idő fáradalmait.</p>
+                </div>
+                <div class="rolam_leiras_keptarolo">
+                    <img src="./assets/pictures/Nagy_András.jpg" alt="Nagy András">
+                </div>
             </div>
             <div class="rolam-velemeny_fotarolo">
                 <h3>Rólam mondták</h3>
@@ -153,12 +159,15 @@
         </section>
         <section id="munkaim">
             <h2>A munkaimból</h2>
-            <img class="family" src="./assets/pictures/family1.jpg" alt="">
-            <img src="./assets/pictures/girl.jpg" alt="">
-            <img src="./assets/pictures/girl1.jpg" alt="">
-            <img class="seaevent" src="./assets/pictures/family2.jpg" alt="">
-            <img class="seaevent" src="./assets/pictures/wedding1.jpg" alt="">
-            <img class="girl" src="./assets/pictures/girl2.jpg" alt="">
+            <div class="munkaim-keptarolo js-forward">
+                <img class="forward" src="./assets/icons/arrow-right-solid.svg" alt="görgetés előre nyíl">
+                <img class="family" src="./assets/pictures/family1.jpg" alt="család">
+                <img src="./assets/pictures/girl.jpg" alt="kislány">
+                <img src="./assets/pictures/girl1.jpg" alt="kislány">
+                <img class="seaevent" src="./assets/pictures/family2.jpg" alt="tengerpartnál család">
+                <img class="seaevent" src="./assets/pictures/wedding1.jpg" alt="tengerpartnál esküvő">
+                <img class="girl" src="./assets/pictures/girl2.jpg" alt="kislány a híd előtt">
+            </div>
         </section>
         <section id="kapcsolat">
             <form action="https://formspree.io/f/xeqyybop" method="post">
@@ -172,7 +181,7 @@
                 <input type="tel" id="telefonszam" name="telefonszám" placeholder="Telefonszám">
 
                 <label for="uzenet"> Írj üzenetet</label>
-                <textarea name="uzenet" id="uzenet" name="üzenet" placeholder="Írj üzenetet"></textarea>
+                <textarea name="uzenet" id="uzenet"  placeholder="Írj üzenetet"></textarea>
 
                 <input type="submit" value="Küldés">
             </form>
@@ -202,6 +211,12 @@
             <p>2024 Nagy András</p>
         </div>
     </footer>
+    <script>
+        const arrow = document.getElementById("js-forward");
+        arrow.onclick = function () {
+            document.getElementById("js-films").scrollLeft += 800;
+        };
+    </script>
 </body>
 
 </html>

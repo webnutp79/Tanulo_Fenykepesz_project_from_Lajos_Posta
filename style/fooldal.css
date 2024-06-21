@@ -50,7 +50,7 @@ main {
 
 .bevezeto-tarolo_leiras {
   font-family: var(--secondaryfont);
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--gray);
   line-height: 1.8rem;
@@ -75,4 +75,36 @@ main {
   font-weight: 500;
   font-size: 1.8rem;
   padding-top: 2rem;
+}
+
+.bevezeto_kep {
+  grid-area: kep;
+}
+
+.bevezeto-tarolo_leiras {
+  grid-area: leiras;
+}
+
+@media screen and (min-width: 992px) {
+  .bevezeto_tarolo_bemutatkozas {
+    padding: 0 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "kep leiras";
+  }
+  .bevezeto_kep img,
+  .bevezeto-tarolo_leiras {
+    width: 100%;
+    height: auto;
+  }
+  .bevezeto-cimtarolo h1 {
+    font-size: 3rem;
+  }
+
+  .bevezeto-cimtarolo {
+    height: 80vh;
+  }
+
+  .bevezeto_tarolo_bemutatkozas {
+    margin-top: -25rem;
 }

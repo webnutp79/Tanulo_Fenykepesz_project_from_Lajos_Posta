@@ -1,26 +1,26 @@
 #rolam {
-    background-color: var(--green);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .rolam_leiras {
-    width: 80vw;
-    padding-top: 5rem;
+  width: 80vw;
+  padding-top: 5rem;
 }
 
 .rolam_leiras h2 {
-font-family: var(--primaryfont);
-font-weight: 500;
-padding-bottom: 2rem;
+  font-family: var(--primaryfont);
+  font-weight: 500;
+  padding-bottom: 2rem;
 }
 
 .rolam_leiras p {
-    padding-bottom: 2rem;
-    font-family: var(--secondaryfont);
-  font-size: .9rem;
+  padding-bottom: 2rem;
+  font-family: var(--secondaryfont);
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--gray);
   line-height: 1.8rem;
@@ -28,46 +28,79 @@ padding-bottom: 2rem;
 }
 
 .rolam_leiras img {
-width: 100%;
-border: 1.5rem solid var(--white);
-box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
-z-index: 1;
+  width: 100%;
+  border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .rolam-velemeny_fotarolo {
-    width: 80vw;
-    background-color: var(--white);
-    margin-top: -4px;
-    padding: 3rem 3rem 13rem;
+  width: 80vw;
+  background-color: var(--white);
+  margin-top: -4px;
+  padding: 3rem 3rem 13rem;
 }
 
 .rolam-velemeny_fotarolo h3 {
-    font-family: var(--secondaryfont);
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-family: var(--secondaryfont);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .rolam-velemeny_altarolo {
-    position: relative;
+  position: relative;
 }
 
 .velemeny {
-    font-family: var(--secondaryfont);
-    font-size: .9rem;
-    color: var(--gray);
-    text-align: center;
-    padding: 2rem 0;
-    line-height: 1.8rem;
+  font-family: var(--secondaryfont);
+  font-size: 0.9rem;
+  color: var(--gray);
+  text-align: center;
+  padding: 2rem 0;
+  line-height: 1.8rem;
 }
 
 .rolam-velemeny_fotarolo img {
-    background-color: rgb(235, 235, 235);
-    border: 1.5rem solid var(--white);
+  background-color: rgb(235, 235, 235);
+  border: 1.5rem solid var(--white);
   box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
 }
 
 .velemeny-kep {
-    position: absolute;
-    left: -3rem;
-    bottom: -14rem;
+  position: absolute;
+  left: -3rem;
+  bottom: -14rem;
+}
+
+@media screen and (min-width: 576px) {
+  .rolam_leiras h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+    .rolam_leiras {
+      display: flex;
+      margin: 0 5rem;
+      gap: 3rem;
+    }
+
+    .rolam-velemeny_fotarolo {
+        margin-top: 3rem;
+    }
+
+    .rolam-velemeny_altarolo {
+        display: flex;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+
+    .rolam_leiras_keptarolo {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .rolam_leiras img {
+      width: 40rem;
+}
 }

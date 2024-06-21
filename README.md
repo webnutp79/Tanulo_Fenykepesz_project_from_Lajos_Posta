@@ -5,3 +5,6 @@
     https://fonts.google.com/
     Playfair
     Open Sans
+
+# Icons from
+    https://fontawesome.com/
