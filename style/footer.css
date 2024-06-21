@@ -1,0 +1,16 @@
+.footer-tarolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--footer-color);
+    font-weight: 500;
+    gap: 1rem;
+
+}
+
+.footer-tarolo > * {
+    font-family: var(--secondaryfont);
+    color: var(--white);
+    font-weight: bold;
+}
