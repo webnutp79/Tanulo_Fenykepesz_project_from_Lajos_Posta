@@ -4,7 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  
 }
 
 img {
@@ -15,10 +14,6 @@ html {
   font-size: 16px;
 }
 
-img {
-  width: 200px;
-}
-
 :root {
   --logofont: "DM Serif Display";
   --primaryfont: "Playfair Display SC", serif;
@@ -27,9 +22,9 @@ img {
   --lightgray: #9e9d9d;
   --gray: #656565;
   --greenhover: #87ffd7;
-  --green: #E4EDEA;
+  --green: #e4edea;
   --beige: #fbf5f5;
-  --shadow: #f2f2f2;
+  --shadow: #f1f1f1fb;
   --footer-color: #1f1f1f;
   --footer-color-lighter: #2d2d2d;
 }

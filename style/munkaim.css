@@ -10,33 +10,9 @@
   text-align: center;
 }
 
-.munkaim-keptarolo {
-    position: relative;
-}
-
-
-
 .munkaim-keptarolo img {
   width: 100%;
-  margin-bottom: 3rem;
-}
-
-.munkaim-keptarolo .forward {
-    width: 25px;
-}
-
-.family {
-  box-shadow: -30px -30px var(--shadow);
-}
-
-.seaevent {
-  background-color: rgb(235, 235, 235);
-  border: 1.5rem solid var(--white);
-  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
-}
-
-.girl {
-  box-shadow: 30px 30px var(--shadow);
+  margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 576px) {
@@ -46,14 +22,78 @@
   }
 }
 
+.otthon-csalad {
+  grid-area: otthon-csalad;
+  box-shadow: -30px -30px var(--shadow);
+}
+
+.kislany-rozsaszinruha {
+  grid-area: kislany-rozsaszinruha;
+  border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.kislany-feherruha {
+  grid-area: kislany-feherruha;
+  border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.tengerpart-csalad {
+  grid-area: tengerpart-csalad;
+  box-shadow: 30px 30px var(--shadow);
+}
+
+.tengerpart-eskuvo {
+  grid-area: tengerpart-eskuvo;
+  box-shadow: -30px 30px var(--shadow);
+}
+
+.kislany-hid {
+  grid-area: kislany-hid;
+  border: 1.5rem solid var(--white);
+  box-shadow: 0px 70px 150px -6px rgba(0, 0, 0, 0.2);
+}
+
+.kep {
+  transition: 0.3s;
+}
+
 @media screen and (min-width: 992px) {
   .munkaim-keptarolo {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas:
+      "otthon-csalad kislany-feherruha tengerpart-eskuvo"
+      "kislany-rozsaszinruha tengerpart-csalad kislany-hid";
     gap: 2rem;
+  }
+
+  #munkaim h2 {
+    font-size: 3rem;
+
   }
 
   #munkaim img {
     width: 80%;
+    margin: 5rem 1rem;
+  }
+
+  .tengerpart-eskuvo {
+    margin-top: 4rem;
+    box-shadow: 30px -30px var(--shadow);
+  }
+
+  .otthon-csalad {
+    margin-top: 4rem;
+  }
+
+  .tengerpart-csalad {
+    margin-top: 4rem;
+  }
+  .kep:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+    box-shadow: none;
   }
 }

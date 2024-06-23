@@ -12,6 +12,7 @@ header {
 
 header img {
   max-width: 100%;
+
 }
 
 #nav-checkbox {
@@ -22,6 +23,7 @@ header img {
   position: relative;
   width: 30px;
   height: 20px;
+  margin-left: 1rem;
   cursor: pointer;
 }
 
@@ -34,7 +36,8 @@ header img {
 
 .line-top {
   width: 60%;
-  top: 0;
+ right: 0;
+ top: 0;
 }
 
 .line-middle {
@@ -45,7 +48,7 @@ header img {
 .line-bottom {
   top: 20px;
   width: 60%;
-  right: 0;
+  left: 0;
 }
 
 #nav-checkbox:checked ~ .hamburger-button > .line-top {
@@ -66,9 +69,11 @@ nav {
   display: flex;
 }
 
+
 .nav-list-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: absolute;
   right: 10vw;
   top: 4rem;
@@ -87,7 +92,6 @@ nav {
   border-bottom: 1px solid rgb(233, 233, 233);
   font-family: var(--secondaryfont);
   cursor: pointer;
-  transition-duration: 0.3s;
 }
 
 .nav-list_elem a {
@@ -111,7 +115,7 @@ nav {
     height: 2rem;
     width: auto;
   }
-
+}
  
 
 @media screen and (min-width: 992px) {

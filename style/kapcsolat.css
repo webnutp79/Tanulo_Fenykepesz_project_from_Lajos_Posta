@@ -4,6 +4,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 
 label {
@@ -23,11 +24,6 @@ label {
   border-radius: 5px;
 }
 
-#vezeteknev:active {
-    border: 5px solid greenyellow;
-}
-
-
 textarea {
   font-family: var(--secondaryfont);
   width: 50%;
@@ -46,10 +42,9 @@ textarea {
 }
 
 [type="submit"]:hover {
-    background-color: var(--greenhover);
-    transform: scale(1.2);
-    transition: 0.2s linear;
-    
+  background-color: var(--greenhover);
+  transform: scale(1.2);
+  transition: 0.2s linear;
 }
 
 .link-tarolo {
@@ -76,4 +71,13 @@ textarea {
   color: var(--greenhover);
   transform: scale(1.5);
   transition: 0.2s linear;
+}
+
+@media screen and (min-width: 992px) {
+  #vezeteknev,
+  #keresztnev,
+  #telefonszam,
+  #uzenet {
+    max-width: 35vw;
+  }
 }
